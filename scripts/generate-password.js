@@ -1,0 +1,1 @@
+const crypto=require('crypto');const alphabet='ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz23456789!@#$%^&*_-+=';let out='';for(let i=0;i<24;i++)out+=alphabet[crypto.randomInt(alphabet.length)];console.log(out);

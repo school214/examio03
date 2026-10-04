@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+node_modules/
+/data/
+*.db
+*.sqlite
+/backups/
+logs/
+uploads/
+.vercel/
+.DS_Store

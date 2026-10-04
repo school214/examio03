@@ -1,0 +1,7 @@
+{
+  "routes": [
+    { "path": "/", "title": "Examio — Digital examination" },
+    { "path": "/admin", "title": "Examio — Admin" },
+    { "path": "/admin/login", "title": "Examio — Admin login" }
+  ]
+}

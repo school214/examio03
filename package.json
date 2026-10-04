@@ -1,0 +1,20 @@
+{
+  "name": "examio-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Examio digital examination platform with Vercel serverless Admin APIs",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node local-server.js",
+    "migrate": "node scripts/migrate.js",
+    "create-admin": "node scripts/create-admin.js",
+    "generate-password": "node scripts/generate-password.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": { "vercel": "^39.2.2" }
+}
