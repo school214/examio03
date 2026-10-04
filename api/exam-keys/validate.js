@@ -1,1 +1,2 @@
-const handler=require('./index');module.exports=(req,res)=>{req.query.public='1';return handler(req,res)};
+const handler = require('../../lib/handlers/exam-keys');
+module.exports = (req, res) => { if (!req.query) req.query = {}; req.query.public = '1'; delete req.query.id; return handler(req, res); };
